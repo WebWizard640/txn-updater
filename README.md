@@ -1,15 +1,178 @@
-# MEV Sandwich Bot - Live Profitable Transactions
+# 🔥 Ethereum MEV Sandwich Arbitrage Bot
 
-**Last updated:** 2025-04-19 16:58:18
+Eine **open-source**, **anfängerfreundliche** Ethereum MEV Sandwich-Arbitrage Bot, der sich auf Transaktionen auf Uniswap konzentriert. Dieses Projekt bietet eine modulare, leicht verständliche Codebasis, um das Prinzip der Sandwich-Trading-Strategie in dezentralen Finanzmärkten (DeFi) praktisch kennenzulernen.
 
-Below are the latest profitable transactions executed by the MEV Sandwich Bot, showcasing real-time profits in ETH.
+---
+
+## 📖 Inhaltsverzeichnis
+
+1. [Überblick](#überblick)
+2. [Features](#features)
+3. [Funktionsweise](#funktionsweise)
+4. [Voraussetzungen](#voraussetzungen)
+5. [Installation](#installation)
+6. [Konfiguration](#konfiguration)
+7. [Verwendung](#verwendung)
+8. [Beispiele](#beispiele)
+9. [Sicherheitshinweise](#sicherheitshinweise)
+10. [Contributing](#contributing)
+11. [Lizenz](#lizenz)
+12. [Danksagungen](#danksagungen)
+
+---
+
+## 🔍 Überblick
+
+Dieser Bot erkennt große Swap-Transaktionen auf Uniswap und führt eine **Sandwich-Arbitrage** durch, indem er vor (Front-run) und nach (Back-run) der Zieltransaktion eigene Trades abschließt, um von Preisdifferenzen zu profitieren. Das Projekt ist speziell für Einsteiger in den Bereich DeFi/MEV (Maximal Extractable Value) konzipiert, mit gut dokumentiertem Code und Schritt-für-Schritt-Anleitungen.
+
+---
+
+## ✨ Features
+
+- 🛠️ **Modularer** und **lesbarer** Python/JavaScript-Code  
+- 📈 Automatisches Monitoring von Uniswap-Pools  
+- ⚡️ Flashbots-Integration für zuverlässiges Front- und Back-Running  
+- 🧪 Unterstützt Mainnet und Testnet (z. B. Goerli)  
+- 🔧 Konfigurierbare Parameter: Gaspreis, Slippage, Handelsgrößen  
+- 📊 Echtzeit-Logging und Performance-Metriken  
+
+---
 
 ## Latest Profitable Transactions
 
-| Tx Hash | Block | Profit (ETH) | Timestamp |
-|---------|-------|--------------|-----------|
-| [0x2113d0e9...](https://etherscan.io/tx/0x2113d0e92ee332c90d1dd22cff799c9faf3d770571f47132b1f6854318450659) | 22304388 | 0.002324 | 2025-04-19 16:57:23 |
-| [0xa8b91b5a...](https://etherscan.io/tx/0xa8b91b5acc160c81d7056bed2c0ceadea9e7bbace8d06ebe635fe12b2ad57aa5) | 22304387 | 0.004458 | 2025-04-19 16:57:11 |
-| [0x4e501922...](https://etherscan.io/tx/0x4e501922c4ed7e5903bfc94af517f225f69c33293f5c4604bd5d2080a0a715fb) | 22304373 | 0.001003 | 2025-04-19 16:54:23 |
-| [0x620ee33c...](https://etherscan.io/tx/0x620ee33c40e6ac8171cc3a4dffb784ce6c9bb84b1c2250d5d273060b93345351) | 22304365 | 0.001078 | 2025-04-19 16:52:47 |
-| [0xcca1a444...](https://etherscan.io/tx/0xcca1a44401b84d6a138ec0c350bd75242eae98c6c97ca941839cea33d0ec0c5e) | 22304356 | 0.002266 | 2025-04-19 16:50:59 |
+---
+
+## ⚙️ Funktionsweise
+
+1. **Mempool-Überwachung**: Beobachtet Pending-Transaktionen auf Uniswap-Pools.  
+2. **Opportunity-Erkennung**: Identifiziert profitable Sandwich-Trades basierend auf Slippage und Gas.  
+3. **Front-Running**: Platziert einen Trade, um den Preis leicht zu verschieben.  
+4. **Opportunitäts-Trade**: Die Zieltransaktion wird ausgeführt.  
+5. **Back-Running**: Schließt die Position, um Profit zu realisieren.  
+
+---
+
+## 📝 Voraussetzungen
+
+- **Node.js** ≥ 16.x oder **Python** ≥ 3.9  
+- **npm** oder **yarn** (bei JavaScript-Version)  
+- Ein Ethereum-Node-Zugang (z. B. Infura, Alchemy) oder lokaler Node  
+- **Flashbots-Relay** API-Zugang (kostenlos registrierbar)  
+- Grundlegendes Verständnis von DeFi und Uniswap  
+
+---
+
+## 🚀 Installation
+
+1. Repository klonen:
+
+```bash
+git clone https://github.com/YourUsername/eth-mev-sandwich-bot.git
+cd eth-mev-sandwich-bot
+```
+
+2. Abhängigkeiten installieren (Beispiel Python):
+
+```bash
+pip install -r requirements.txt
+```
+
+Oder (JavaScript):
+
+```bash
+npm install
+# oder
+yarn install
+```
+
+---
+
+## 🔧 Konfiguration
+
+Erstelle eine `.env`-Datei im Projektverzeichnis mit den folgenden Variablen:
+
+```ini
+# Ethereum RPC
+RPC_URL=https://mainnet.infura.io/v3/YOUR_INFURA_PROJECT_ID
+
+# Wallet
+PRIVATE_KEY=0xYOUR_PRIVATE_KEY
+
+# Flashbots Relay
+FLASHBOTS_RELAY=https://relay.flashbots.net
+
+# Bot-Einstellungen
+GAS_MULTIPLIER=1.2
+SLIPPAGE=0.5
+MIN_PROFIT_ETH=0.01
+POOL_ADDRESSES=0x...      # Komma-separierte Liste von Pools
+```
+
+---
+
+## 💡 Verwendung
+
+Starte den Bot:
+
+```bash
+npm run start        # JavaScript
+# oder
+python bot.py        # Python
+```
+
+Überwache die Echtzeit-Logs:
+
+```bash
+tail -f logs/bot.log
+```
+
+---
+
+## 🔍 Beispiele
+
+```bash
+# Simuliere einen Sandwich-Trade auf Goerli-Testnet
+RPC_URL=https://goerli.infura.io/v3/YOUR_INFURA_PROJECT_ID \
+PRIVATE_KEY=0xYOUR_KEY python bot.py --network goerli --simulate
+```
+
+---
+
+## ⚠️ Sicherheitshinweise
+
+- **Testnet zuerst**: Teste immer zuerst auf einem Testnet, bevor du echtes Kapital riskierst.  
+- **Private Keys**: Teile deine Private Keys niemals öffentlich.  
+- **Gas-Risiko**: Behalte Gaspreise im Auge, um teure Fehlschläge zu vermeiden.  
+- **Code prüfen**: Überprüfe regelmäßig Abhängigkeiten auf Sicherheitslücken.  
+
+---
+
+## 🤝 Contributing
+
+Contributions sind herzlich willkommen! Bitte folge diesen Schritten:
+
+1. Forke das Repository.  
+2. Erstelle einen Feature-Branch (`git checkout -b feature/mev-bot`).  
+3. Commit deine Änderungen (`git commit -m 'Add new feature'`).  
+4. Push zum Branch (`git push origin feature/mev-bot`).  
+5. Erstelle einen Pull Request.  
+
+Sieh dir auch die [CONTRIBUTING.md](CONTRIBUTING.md) für detaillierte Richtlinien an.
+
+---
+
+## 📜 Lizenz
+
+Dieses Projekt ist unter der MIT-Lizenz lizenziert. Siehe [LICENSE](LICENSE) für Details.
+
+---
+
+## 🙏 Danksagungen
+
+- [Flashbots](https://docs.flashbots.net) für die Relay-API.  
+- [Uniswap](https://uniswap.org/) für DeFi-Innovation.  
+- Open-Source-Community für Support und Feedback.  
+
+---
+
+*Happy MEV Hunting!* 🚀
