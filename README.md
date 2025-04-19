@@ -59,17 +59,17 @@ Dieser Bot erkennt große Swap-Transaktionen auf Uniswap und führt eine **Sandw
 
 ## Latest Profitable Transactions
 
-**Last updated:** 2025-04-19 17:55:29
+**Last updated:** 2025-04-19 18:13:57
 
-Below are the latest profitable transactions executed by the MEV Sandwich Bot, showcasing real-time profits in ETH.
+Below are the latest profitable transactions executed by our live MEV Sandwich [Bot](https://etherscan.io/address/0x0000e0ca771e21bd00057f54a68c30d400000000), showcasing real-time profits in ETH.
 
 | Tx Hash | Block | Profit (ETH) | Timestamp |
 |---------|-------|--------------|-----------|
-| [0x7b5091ba...](https://etherscan.io/tx/0x7b5091baa0384006d02e235a7f64fd67f5649168a0b8690d8f67b0433bbc119f) | 22304666 | 0.003171 | 2025-04-19 17:53:35 |
-| [0xad776641...](https://etherscan.io/tx/0xad77664108e12d1a7a6b290b8dc699879494d428cba262f6e391d267639f7ec5) | 22304665 | 0.002441 | 2025-04-19 17:53:23 |
-| [0xb361b721...](https://etherscan.io/tx/0xb361b721199af7826aec3a84e5c4ed3015f9873278d8aae22f2bcb5eab3dc8dd) | 22304658 | 0.002261 | 2025-04-19 17:51:59 |
-| [0xbfd34b75...](https://etherscan.io/tx/0xbfd34b75bbbc4cfa358b91ad2cb328ac1ff5e032becaab247ad6685201272204) | 22304655 | 0.003166 | 2025-04-19 17:51:23 |
-| [0x17e834e7...](https://etherscan.io/tx/0x17e834e760c0839930ed212a152d8e60b8c008096ddda29ac0fa4f83c533caa9) | 22304654 | 0.004417 | 2025-04-19 17:51:11 |
+| [0xbd59fdd6...](https://etherscan.io/tx/0xbd59fdd68dc0527ae8683840fc5c9a739a3601ff94607f4bf58e6c93a3929476) | 22304766 | 0.004407 | 2025-04-19 18:13:35 |
+| [0x4f526320...](https://etherscan.io/tx/0x4f526320744d8e37249017cc5c906aadd2a4377a47f54d435afeee663f13fc0a) | 22304764 | 0.002881 | 2025-04-19 18:13:11 |
+| [0x9effcdcc...](https://etherscan.io/tx/0x9effcdcc3c7150e9551a31da6a2392b3c0b7a35315347fbfaa179f81e27ff064) | 22304750 | 0.001317 | 2025-04-19 18:10:23 |
+| [0xce106874...](https://etherscan.io/tx/0xce106874848b5eb89aa220bf44c829cc6aad08433ab0476e3396bf58b6eb46b6) | 22304744 | 0.003275 | 2025-04-19 18:09:11 |
+| [0xe05abe8d...](https://etherscan.io/tx/0xe05abe8dc66e85c9fc89d7b95d763ae7343c9e6576d73f829a84781774693002) | 22304723 | 0.002122 | 2025-04-19 18:04:59 |
 
 ---
 ## 🚀 Installation
