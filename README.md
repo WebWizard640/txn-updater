@@ -1,6 +1,6 @@
 # MEV Sandwich Bot - Live Profitable Transactions
 
-**Last updated:** 2025-04-19 15:37:07
+**Last updated:** 2025-04-19 15:40:39
 
 Below are the latest profitable transactions executed by the MEV Sandwich Bot, showcasing real-time profits in ETH.
 
@@ -8,5 +8,5 @@ Below are the latest profitable transactions executed by the MEV Sandwich Bot, s
 
 | Tx Hash | Block | Profit (ETH) | Timestamp |
 |---------|-------|--------------|-----------|
-| [0xfe19cc4a...](https://etherscan.io/tx/0xfe19cc4ac0d17e7ff682bd25f5a09b8c436b5613b77aeda113f428e345325da9) | 22303974 | 0.06259 | 2025-04-19 15:33:59 |
-| [0x1c7bf713...](https://etherscan.io/tx/0x1c7bf713429e2c39b80ae3725827fd16c45e38493eedeefa885620b25d5477c1) | 22303971 | 0.026967 | 2025-04-19 15:33:23 |
+| [0x25b49024...](https://etherscan.io/tx/0x25b4902401235edefb6821486afb9dabc2e98dada99f175d02ae7921fe2cf0df) | 22304003 | 0.033433 | 2025-04-19 15:39:47 |
+| [0xba78892c...](https://etherscan.io/tx/0xba78892cfe74dc6df39114c4eaab0e385b862c8bb95ea4025adfe28e45e53d3e) | 22303992 | 0.087197 | 2025-04-19 15:37:35 |
