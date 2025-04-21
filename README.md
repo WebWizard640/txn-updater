@@ -59,17 +59,17 @@ Dieser Bot erkennt große Swap-Transaktionen auf Uniswap und führt eine **Sandw
 
 ## 📈 Latest Profitable Transactions
 
-**Last updated:** 2025-04-21 23:30:44
+**Last updated:** 2025-04-21 23:43:38
 
 Below are the latest profitable transactions executed by our live [MEV Sandwich Bot](https://etherscan.io/address/0x0000e0ca771e21bd00057f54a68c30d400000000), showcasing real-time profits in ETH.
 
 | Tx Hash | Block | Profit (ETH) | Timestamp |
 |---------|-------|--------------|-----------|
-| [0x7ff4c672...](https://etherscan.io/tx/0x7ff4c6725c3f5e6fcfbba92d433284ec23f73a00c4404c868de10eb516a53e79) | 22320661 | 0.002183 | 2025-04-21 23:28:23 |
-| [0x9697d579...](https://etherscan.io/tx/0x9697d5799210a5c9183592827ad76964b8553b24bc00b93d59f475d422315ec3) | 22320659 | 0.003646 | 2025-04-21 23:27:59 |
-| [0xfd5c3383...](https://etherscan.io/tx/0xfd5c33839115c0d0d026eb5e23de5405bd599c00962ad4938bf26ca6d30e262a) | 22320647 | 0.000915 | 2025-04-21 23:25:35 |
-| [0x0d60ae12...](https://etherscan.io/tx/0x0d60ae121ed8281e3e6eed4cb9c1ccd51ddf545299a0aaa2cbca2cef84e36514) | 22320602 | 0.001977 | 2025-04-21 23:16:35 |
-| [0x88344dcc...](https://etherscan.io/tx/0x88344dcc1031369ed8a5c09e66c5a5d300bd9f46e8040c2e7f2fff9e5556cc95) | 22320599 | 0.001977 | 2025-04-21 23:15:59 |
+| [0x8aff96c1...](https://etherscan.io/tx/0x8aff96c183d066082034125629a312cf673dda04929e1ec0460bc3c0f21e4dcc) | 22320734 | 0.002224 | 2025-04-21 23:42:59 |
+| [0xbb95bc4b...](https://etherscan.io/tx/0xbb95bc4b45c3979a0d43d63125d8b940c7c058335b2767a1dd818f058df6589f) | 22320733 | 0.003364 | 2025-04-21 23:42:47 |
+| [0x6230566d...](https://etherscan.io/tx/0x6230566d68935fdc83f3ac5d02b806c0ac8fe11c5ff7170b0de832d123584f11) | 22320728 | 0.002297 | 2025-04-21 23:41:47 |
+| [0x91257918...](https://etherscan.io/tx/0x91257918d77a4fb68af7008c815dd3edff6e9e014c8bdc1c8c5b13f6894f25df) | 22320723 | 0.004943 | 2025-04-21 23:40:47 |
+| [0xd28cb129...](https://etherscan.io/tx/0xd28cb12956904176500d172ca88776710e8cead7b397b4c2acc09eb4997b016a) | 22320716 | 0.003754 | 2025-04-21 23:39:23 |
 
 ---
 ## 🚀 Installation
