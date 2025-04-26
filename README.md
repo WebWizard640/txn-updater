@@ -59,17 +59,17 @@ Dieser Bot erkennt große Swap-Transaktionen auf Uniswap und führt eine **Sandw
 
 ## 📈 Latest Profitable Transactions
 
-**Last updated:** 2025-04-26 16:49:42
+**Last updated:** 2025-04-26 16:56:57
 
 Below are the latest profitable transactions executed by our live [MEV Sandwich Bot](https://etherscan.io/address/0x0000e0ca771e21bd00057f54a68c30d400000000), showcasing real-time profits in ETH.
 
 | Tx Hash | Block | Profit (ETH) | Timestamp |
 |---------|-------|--------------|-----------|
+| [0x9e318a1f...](https://etherscan.io/tx/0x9e318a1f00906df7ee534a41e92b60f70c079c69834c30487aa39cc3e42c64f5) | 22354539 | 0.001727 | 2025-04-26 16:54:47 |
+| [0x54383c7b...](https://etherscan.io/tx/0x54383c7bdabb04a59807bba86f1ecd449a330a880d80300a56e945e77f3b2416) | 22354513 | 0.004691 | 2025-04-26 16:49:35 |
 | [0x67ef5db1...](https://etherscan.io/tx/0x67ef5db13c4b7b826a6569cc605814f396660a4d50adf71c493880a49f216a90) | 22354494 | 0.001098 | 2025-04-26 16:45:47 |
 | [0x47ac842a...](https://etherscan.io/tx/0x47ac842a6ac767be63f5f9fc5ba15e88b56001eed38174d88bf37bf4c414a33f) | 22354483 | 0.003816 | 2025-04-26 16:43:35 |
 | [0xc24dbf2e...](https://etherscan.io/tx/0xc24dbf2eed5cbe0c1e2774af80b1ffa9b1e45d64c4b903cd93a35b7ca3e736b5) | 22354461 | 0.003253 | 2025-04-26 16:39:11 |
-| [0x94097be2...](https://etherscan.io/tx/0x94097be2f6d402f61bd86c72fd04bf185abaf1b9fb91544712094ace3b2dea3f) | 22354421 | 0.004041 | 2025-04-26 16:31:11 |
-| [0xe5af9e61...](https://etherscan.io/tx/0xe5af9e6158da5c3f10aa194c450ab32fa7f355d4eafa594b5d7963a0215fd115) | 22354391 | 0.004457 | 2025-04-26 16:25:11 |
 
 ---
 ## No transactions available yet
