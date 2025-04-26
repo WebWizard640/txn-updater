@@ -59,11 +59,15 @@ Dieser Bot erkennt große Swap-Transaktionen auf Uniswap und führt eine **Sandw
 
 ## 📈 Latest Profitable Transactions
 
-**Last updated:** 2025-04-26 14:42:38
+**Last updated:** 2025-04-26 14:50:01
 
 Below are the latest profitable transactions executed by our live [MEV Sandwich Bot](https://etherscan.io/address/0x0000e0ca771e21bd00057f54a68c30d400000000), showcasing real-time profits in ETH.
 
 ### No transactions available yet
+Check back soon for live updates!
+
+---
+## No transactions available yet
 Check back soon for live updates!
 
 ---
