@@ -59,17 +59,17 @@ Dieser Bot erkennt große Swap-Transaktionen auf Uniswap und führt eine **Sandw
 
 ## 📈 Latest Profitable Transactions
 
-**Last updated:** 2025-05-04 23:56:15
+**Last updated:** 2025-05-05 03:31:01
 
 Below are the latest profitable transactions executed by our live [MEV Sandwich Bot](https://etherscan.io/address/0x0000e0ca771e21bd00057f54a68c30d400000000), showcasing real-time profits in ETH.
 
 | Tx Hash | Block | Profit (ETH) | Timestamp |
 |---------|-------|--------------|-----------|
-| [0x2cea4728...](https://etherscan.io/tx/0x2cea4728ca37fc1ae00a17694e0c278dc5f03e95ee89e0c6a768ca2275446133) | 22413767 | 0.002517 | 2025-05-04 23:48:23 |
-| [0xd5239afe...](https://etherscan.io/tx/0xd5239afe43ae10253cb0c9360be9c0e4a222934b7d0be9c1a34981b08abfb105) | 22413762 | 0.003115 | 2025-05-04 23:47:23 |
-| [0x78340ac5...](https://etherscan.io/tx/0x78340ac55a67ac52233cca0fa063005f5829710940d17df017b0dccdde4d0c40) | 22413693 | 0.004444 | 2025-05-04 23:33:35 |
-| [0x22d7361e...](https://etherscan.io/tx/0x22d7361e11ad2110694822fe5285bd7f32fe45fb548a8e95f1fbd37a0996d003) | 22413683 | 0.003695 | 2025-05-04 23:31:35 |
-| [0x5f545936...](https://etherscan.io/tx/0x5f545936a3387cb197f11ae30ff1b249737903470f17fc49d4fc9b4e215d3b0d) | 22413666 | 0.002579 | 2025-05-04 23:28:11 |
+| [0x85a051fb...](https://etherscan.io/tx/0x85a051fb217b81552b4dc10d2c2a3eb12090d18a601438e81ae465c0522c7dbb) | 22414860 | 0.003168 | 2025-05-05 03:29:11 |
+| [0x22e557e4...](https://etherscan.io/tx/0x22e557e49d157c7056c58d78be4029e374601d6da9e62e793481f35012c75d5f) | 22414833 | 0.000694 | 2025-05-05 03:23:35 |
+| [0xcce478fe...](https://etherscan.io/tx/0xcce478fec022c0f91ff4fcece44131012a41e03cadeb62022987788874f06c36) | 22414828 | 0.000807 | 2025-05-05 03:22:35 |
+| [0x21d9abad...](https://etherscan.io/tx/0x21d9abad6c9cba635437b96f74799a12f462a2b69c20c4b227fde805671401c1) | 22414810 | 0.002996 | 2025-05-05 03:18:59 |
+| [0xebde0e94...](https://etherscan.io/tx/0xebde0e9471ac3cd7f9bafa4b4852859883139c821549457f380309f37a1f0602) | 22414797 | 0.00215 | 2025-05-05 03:16:23 |
 
 ---
 ## No transactions available yet
