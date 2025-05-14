@@ -59,17 +59,17 @@ Dieser Bot erkennt große Swap-Transaktionen auf Uniswap und führt eine **Sandw
 
 ## 📈 Latest Profitable Transactions
 
-**Last updated:** 2025-05-14 22:47:32
+**Last updated:** 2025-05-14 22:54:44
 
 Below are the latest profitable transactions executed by our live [MEV Sandwich Bot](https://etherscan.io/address/0x0000e0ca771e21bd00057f54a68c30d400000000), showcasing real-time profits in ETH.
 
 | Tx Hash | Block | Profit (ETH) | Timestamp |
 |---------|-------|--------------|-----------|
-| [0xaf0deb43...](https://etherscan.io/tx/0xaf0deb435f5ac04167d28111623b89bcf4029412c1b34c0826a992e243348965) | 22484461 | 0.002924 | 2025-05-14 22:46:59 |
-| [0x9fda759d...](https://etherscan.io/tx/0x9fda759dd6366e725c332e3532bf0147d3750ee5ab4672babd66ddeba89034f9) | 22484451 | 0.00427 | 2025-05-14 22:44:59 |
-| [0x07f4577d...](https://etherscan.io/tx/0x07f4577d7ecdf269fc99945fe545701383333c69aa4b236c7c63799b702d668b) | 22484448 | 0.004568 | 2025-05-14 22:44:23 |
-| [0x6c6896a5...](https://etherscan.io/tx/0x6c6896a50ecb6a9ec51a24989fabbb13bb23f033776e6882b9bb7c97bea27fee) | 22484440 | 0.002885 | 2025-05-14 22:42:47 |
-| [0x5e817e1c...](https://etherscan.io/tx/0x5e817e1cf287edaa05bb2af125b69bb3796be6997cafb29e73ca8d7cb077ab80) | 22484419 | 0.00168 | 2025-05-14 22:38:35 |
+| [0xf00c8e54...](https://etherscan.io/tx/0xf00c8e5477aa960c8c004b101c99a83821f47cdcfe5969b356ba29f310b01447) | 22484488 | 0.00252 | 2025-05-14 22:52:23 |
+| [0xbb1ae6c8...](https://etherscan.io/tx/0xbb1ae6c801c1f923cbe39d44064a520dfd1241f819d932c0173e8b582568a006) | 22484478 | 0.003375 | 2025-05-14 22:50:23 |
+| [0x815479fe...](https://etherscan.io/tx/0x815479fe9ebe2e26ffd0dbb866053b646137f14e72d712ea12b52193a6b53b6d) | 22484476 | 0.00446 | 2025-05-14 22:49:59 |
+| [0x60af9f61...](https://etherscan.io/tx/0x60af9f61773ed7373400c68faecdb382039e5e35436dd8f392dd1db576a2fe3e) | 22484471 | 0.00199 | 2025-05-14 22:48:59 |
+| [0x2ac21d82...](https://etherscan.io/tx/0x2ac21d8259f37e45b40878437b58a75f6aaa2d884610dcf98194d15ad61ffccd) | 22484470 | 0.002077 | 2025-05-14 22:48:47 |
 
 ---
 ## No transactions available yet
